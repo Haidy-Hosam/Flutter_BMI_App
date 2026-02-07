@@ -23,10 +23,10 @@ It allows users to input their gender, height, weight, and age, then calculates 
 ## 📱 Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/Home.png)
+![Home Screen](https://raw.githubusercontent.com/Haidy-Hosam/Flutter_BMI_App/main/ScreenShots/Home.png)
 
 ### Result Screen
-![Result Screen](screenshots/Result.png)
+![Result Screen](https://raw.githubusercontent.com/Haidy-Hosam/Flutter_BMI_App/main/ScreenShots/Result.png)
 
 ---
 
