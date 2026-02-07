@@ -23,10 +23,10 @@ It allows users to input their gender, height, weight, and age, then calculates 
 ## 📱 Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/home.png)
+![Home Screen](screenshots/Home.png)
 
 ### Result Screen
-![Result Screen](screenshots/result.png)
+![Result Screen](screenshots/Result.png)
 
 ---
 
@@ -49,11 +49,4 @@ It allows users to input their gender, height, weight, and age, then calculates 
 - Android Studio or VS Code
 - Emulator or physical device
 
-### Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/Haidy-Hosam/BmiDex.git
-
-BMI is calculated using the following formula:
 
