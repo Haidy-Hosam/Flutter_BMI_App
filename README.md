@@ -1,16 +1,59 @@
-# flutter_application
+# 🧮 BmiDex
 
-A new Flutter project.
+BmiDex is a clean and modern **Flutter BMI (Body Mass Index) Calculator App**.  
+It allows users to input their gender, height, weight, and age, then calculates the BMI and displays the result with a clear classification.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- Select gender (Male / Female)
+- Adjust height using a slider
+- Increase or decrease weight and age
+- Accurate BMI calculation
+- BMI classification:
+  - Underweight
+  - Normal weight
+  - Overweight
+  - Obese
+- Dark-themed modern UI
+- Simple and intuitive user experience
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Home Screen
+![Home Screen](screenshots/home.png)
+
+### Result Screen
+![Result Screen](screenshots/result.png)
+
+---
+
+## 🛠️ Built With
+- **Flutter**
+- **Dart**
+- **Material Design**
+
+---
+
+## 🧮 BMI Formula
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK installed
+- Android Studio or VS Code
+- Emulator or physical device
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Haidy-Hosam/BmiDex.git
+
+BMI is calculated using the following formula:
+
