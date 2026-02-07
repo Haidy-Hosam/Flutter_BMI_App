@@ -6,11 +6,17 @@ class Countercard extends StatelessWidget {
     required this.title,
     required this.color,
     required this.text,
+    this.value,
+    this.onAdd,
+    this.onRemove,
   });
 
   final String title;
   final Color color;
   final String text;
+  final int? value;
+  final Function()? onAdd;
+  final Function()? onRemove;
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +41,7 @@ class Countercard extends StatelessWidget {
               ),
             ),
             Text(
-              text,
+              value.toString(),
               style: TextStyle(
                 color: const Color.fromARGB(255, 255, 255, 255),
                 fontSize: 35,
@@ -46,22 +52,25 @@ class Countercard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 IconButton(
-            style: IconButton.styleFrom(
-backgroundColor: const Color(0xFF4D515D),
-            ),
-            onPressed: () {},
-            icon: Icon(Icons.remove, color: const Color.fromARGB(255, 255, 255, 255)),
-          ),       
-          SizedBox(width: 10),
-             IconButton(
-            style: IconButton.styleFrom(
-backgroundColor: const Color(0xFF4D515D),
-            ),
-            onPressed: () {},
-            icon: Icon(Icons.add, color: Colors.white),
-          ),
+                  style: IconButton.styleFrom(
+                    backgroundColor: const Color(0xFF4D515D),
+                  ),
+                  onPressed: onRemove,
+                  icon: Icon(
+                    Icons.remove,
+                    color: const Color.fromARGB(255, 255, 255, 255),
+                  ),
+                ),
+                SizedBox(width: 10),
+                IconButton(
+                  style: IconButton.styleFrom(
+                    backgroundColor: const Color(0xFF4D515D),
+                  ),
+                  onPressed: onAdd,
+                  icon: Icon(Icons.add, color: Colors.white),
+                ),
               ],
-            )
+            ),
           ],
         ),
       ),
